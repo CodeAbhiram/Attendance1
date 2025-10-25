@@ -3,7 +3,7 @@ import axios from 'axios';
 // Create a configured instance of axios
 const api = axios.create({
   // Ensure this URL points directly to your backend server
-  baseURL: 'http://localhost:5000/api', 
+  baseURL: 'https://attendance-1-2cfd.onrender.com', 
   headers: {
     'Content-Type': 'application/json',
   },
